@@ -1,388 +1,174 @@
 <!DOCTYPE html>
-
 <html lang="de">
-
 <head>
-
-&nbsp; <meta charset="UTF-8">
-
-&nbsp; <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
-&nbsp; <title>Schleifservice \& Drohnenbilder in Gilching und Umgebung | Gerhard Triebenbacher</title>
-
-
-
-&nbsp; <meta name="description" content="Messerschleifen sowie professionelle Drohnenbilder für Immobilien, technische Einsätze und private Veranstaltungen. Präzise \& zuverlässig.">
-
-
-
-&nbsp; <meta name="robots" content="index, follow">
-
-&nbsp; <meta name="author" content="Gerhard Triebenbacher">
-
-
-
-&nbsp; <style>
-
-&nbsp;   body {
-
-&nbsp;     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-
-&nbsp;     margin: 0;
-
-&nbsp;     line-height: 1.6;
-
-&nbsp;     color: #222;
-
-&nbsp;     background: #f6f6f6;
-
-&nbsp;   }
-
-
-
-&nbsp;   header, footer {
-
-&nbsp;     background: #2f2f2f;
-
-&nbsp;     color: #fff;
-
-&nbsp;     text-align: center;
-
-&nbsp;     padding: 2.3rem 1.5rem;
-
-&nbsp;   }
-
-
-
-&nbsp;   header img {
-
-&nbsp;     max-width: 240px;
-
-&nbsp;     margin: 0 auto 1.2rem auto;
-
-&nbsp;     display: block;
-
-&nbsp;     border-radius: 10px;
-
-&nbsp;   }
-
-
-
-&nbsp;   section {
-
-&nbsp;     max-width: 900px;
-
-&nbsp;     margin: 0 auto;
-
-&nbsp;     padding: 1.8rem 1.5rem;
-
-&nbsp;     background: #fff;
-
-&nbsp;   }
-
-
-
-&nbsp;   h1, h2, h3, h4 {
-
-&nbsp;     margin-top: 0;
-
-&nbsp;   }
-
-
-
-&nbsp;   h2 {
-
-&nbsp;     font-size: 1.9rem;
-
-&nbsp;     border-bottom: 2px solid #e0e0e0;
-
-&nbsp;     padding-bottom: 0.3rem;
-
-&nbsp;     margin-bottom: 1.2rem;
-
-&nbsp;   }
-
-
-
-&nbsp;   h3 {
-
-&nbsp;     font-size: 1.5rem;
-
-&nbsp;     margin-top: 1.6rem;
-
-&nbsp;     margin-bottom: 0.6rem;
-
-&nbsp;   }
-
-
-
-&nbsp;   h4 {
-
-&nbsp;     font-size: 1.2rem;
-
-&nbsp;     margin-top: 1.6rem;
-
-&nbsp;     margin-bottom: 0.6rem;
-
-&nbsp;   }
-
-
-
-&nbsp;   ul {
-
-&nbsp;     margin-top: 0.5rem;
-
-&nbsp;   }
-
-
-
-&nbsp;   .drohnenbild {
-
-&nbsp;     width: 100%;
-
-&nbsp;     max-width: 900px;
-
-&nbsp;     border-radius: 12px;
-
-&nbsp;     display: block;
-
-&nbsp;     margin: 1.2rem auto 0.5rem auto;
-
-&nbsp;   }
-
-
-
-&nbsp;   figcaption {
-
-&nbsp;     text-align: center;
-
-&nbsp;     font-size: 0.95rem;
-
-&nbsp;     color: #555;
-
-&nbsp;     margin-bottom: 1.4rem;
-
-&nbsp;   }
-
-
-
-&nbsp;   footer a {
-
-&nbsp;     color: #fff;
-
-&nbsp;     text-decoration: underline;
-
-&nbsp;   }
-
-
-
-&nbsp;   footer a:hover {
-
-&nbsp;     text-decoration: none;
-
-&nbsp;   }
-
-&nbsp; </style>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Schleifservice & Drohnenbilder in Gilching und Umgebung | Gerhard Triebenbacher</title>
+
+  <meta name="description" content="Messerschleifen sowie professionelle Drohnenbilder für Immobilien, technische Einsätze und private Veranstaltungen. Präzise & zuverlässig.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Gerhard Triebenbacher">
+
+  <style>
+    html {
+      font-size: 16px;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      color: #222;
+      background: #f6f6f6;
+      font-size: 1rem;
+    }
+
+    header, footer {
+      background: #2f2f2f;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1.5rem;
+    }
+
+    header img {
+      max-width: 220px;
+      margin: 0 auto 1rem;
+      display: block;
+      border-radius: 10px;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 1.6rem 1.5rem;
+      background: #fff;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-size: 1.3rem;
+      margin-top: 1.4rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h4 {
+      font-size: 1.1rem;
+      margin-top: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    ul {
+      margin-top: 0.4rem;
+      padding-left: 1.2rem;
+    }
+
+    .drohnenbild {
+      width: 100%;
+      max-width: 900px;
+      border-radius: 12px;
+      display: block;
+      margin: 1rem auto 0.4rem;
+    }
+
+    figcaption {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 1.2rem;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    footer a:hover {
+      text-decoration: none;
+    }
+  </style>
 </head>
-
-
 
 <body>
 
-
-
 <header>
-
-&nbsp; <img src="karte-vorne.jpg" alt="Visitenkarte – Schleifservice \& Drohnenbilder">
-
-&nbsp; <h1>Schleifservice \& Drohnenbilder</h1>
-
-&nbsp; <p><em>Gestochen scharf – von der Klinge bis zum Horizont</em></p>
-
+  <img src="karte-vorne.jpg" alt="Visitenkarte – Schleifservice & Drohnenbilder">
+  <h1>Schleifservice & Drohnenbilder</h1>
+  <p><em>Gestochen scharf – von der Klinge bis zum Horizont</em></p>
 </header>
 
-
-
 <section>
+  <h2>Leistungen</h2>
 
-&nbsp; <h2>Leistungen</h2>
+  <h3>Messerschleifen</h3>
+  <p>Fachgerechtes Schärfen von Küchenmessern sowie Outdoor- und Jagdmessern.</p>
 
+  <p><strong>Preise</strong><br>
+  Die Preise richten sich nach der Klingenlänge und dem Grad der Abnutzung:</p>
 
+  <ul>
+    <li>bis 10 cm: 3 – 6 €</li>
+    <li>bis 14 cm: 5 – 8 €</li>
+    <li>bis 20 cm: 6 – 10 €</li>
+    <li>Santoku-, Outdoor- und Jagdmesser: ab 9 €</li>
+  </ul>
 
-&nbsp; <h3>Messerschleifen</h3>
+  <p><strong>Hinweis:</strong> Kein Wellenschliff · kein Scherenschliff</p>
 
-&nbsp; <p>Fachgerechtes Schärfen von Küchenmessern sowie Outdoor- und Jagdmessern.</p>
+  <h3>Drohnenbilder</h3>
+  <p>
+    Hochauflösende Luftaufnahmen für Immobilien, Grundstücke,
+    Dokumentationen und technische Einsätze sowie für private Veranstaltungen.
+  </p>
 
+  <h4>Drohnenbilder – Beispiele</h4>
 
+  <figure>
+    <img src="drohnenbild.jpg" class="drohnenbild" alt="Totholzsuche in unwegsamem Gelände">
+    <figcaption>Totholzsuche in größeren oder unwegsamen Arealen</figcaption>
+  </figure>
 
-&nbsp; <p><strong>Preise</strong><br>
-
-&nbsp; Die Preise richten sich nach der Klingenlänge und dem Grad der Abnutzung:</p>
-
-
-
-&nbsp; <ul>
-
-&nbsp;   <li>bis 10 cm: 3 – 6 €</li>
-
-&nbsp;   <li>bis 14 cm: 5 – 8 €</li>
-
-&nbsp;   <li>bis 20 cm: 6 – 10 €</li>
-
-&nbsp;   <li>Santoku-, Outdoor- und Jagdmesser: ab 9 €</li>
-
-&nbsp; </ul>
-
-
-
-&nbsp; <p><strong>Hinweis:</strong> Kein Wellenschliff · kein Scherenschliff</p>
-
-
-
-&nbsp; <h3>Drohnenbilder</h3>
-
-&nbsp; <p>
-
-&nbsp;   Hochauflösende Luftaufnahmen für Immobilien, Grundstücke,
-
-&nbsp;   Dokumentationen und technische Einsätze sowie für private Veranstaltungen.
-
-&nbsp; </p>
-
-
-
-&nbsp; <h4>Drohnenbilder – Beispiele</h4>
-
-
-
-&nbsp; <figure>
-
-&nbsp;   <img src="drohnenbild.jpg"
-
-&nbsp;        class="drohnenbild"
-
-&nbsp;        alt="Luftaufnahme zur Totholzsuche in unwegsamem Gelände">
-
-&nbsp;   <figcaption>
-
-&nbsp;     Totholzsuche in größeren oder unwegsamen Arealen
-
-&nbsp;   </figcaption>
-
-&nbsp; </figure>
-
-
-
-&nbsp; <figure>
-
-&nbsp;   <img src="drohnenvideo-standbild.jpg"
-
-&nbsp;        class="drohnenbild"
-
-&nbsp;        alt="Drohnenaufnahme zur technischen Objektinspektion">
-
-&nbsp;   <figcaption>
-
-&nbsp;     Inspektion diverser Objekte<br>
-
-&nbsp;     <strong>Drohnenvideos auf Anfrage</strong>
-
-&nbsp;   </figcaption>
-
-&nbsp; </figure>
-
+  <figure>
+    <img src="drohnenvideo-standbild.jpg" class="drohnenbild" alt="Technische Objektinspektion">
+    <figcaption>Inspektion diverser Objekte<br><strong>Drohnenvideos auf Anfrage</strong></figcaption>
+  </figure>
 </section>
-
-
 
 <section id="impressum">
+  <h2>Impressum</h2>
+  <p><strong>Gerhard Triebenbacher</strong><br>
+     Schleifservice & Drohnenbilder<br>
+     Pollinger Str. 16<br>
+     82205 Gilching</p>
 
-&nbsp; <h2>Impressum</h2>
+  <p>
+    Telefon: 08105 / 3931746<br>
+    E-Mail: <a href="mailto:praezision-perspektive@outlook.de">praezision-perspektive@outlook.de</a>
+  </p>
 
-
-
-&nbsp; <p><strong>Gerhard Triebenbacher</strong><br>
-
-&nbsp; Schleifservice \& Drohnenbilder<br>
-
-&nbsp; Pollinger Str. 16<br>
-
-&nbsp; 82205 Gilching</p>
-
-
-
-&nbsp; <p>
-
-&nbsp;   Telefon: 08105 / 3931746<br>
-
-&nbsp;   E-Mail: <a href="mailto:praezision-perspektive@outlook.de">praezision-perspektive@outlook.de</a>
-
-&nbsp; </p>
-
-
-
-&nbsp; <p><strong>Kleinunternehmer gem. § 19 UStG – kein Ausweis der Umsatzsteuer.</strong></p>
-
+  <p><strong>Kleinunternehmer gem. § 19 UStG – kein Ausweis der Umsatzsteuer.</strong></p>
 </section>
-
-
 
 <section id="datenschutz">
-
-&nbsp; <h2>Datenschutzerklärung</h2>
-
-
-
-&nbsp; <p>
-
-&nbsp;   Diese Website dient ausschließlich der Information über meine Dienstleistungen.
-
-&nbsp;   Es werden keine Kontaktformulare, Cookies oder Analyse-Tools eingesetzt.
-
-&nbsp; </p>
-
-
-
-&nbsp; <p>
-
-&nbsp;   Beim Aufruf dieser Website werden durch den Hosting-Anbieter
-
-&nbsp;   <strong>GitHub Pages</strong> automatisch technische Zugriffsdaten verarbeitet
-
-&nbsp;   (z. B. IP-Adresse, Datum und Uhrzeit des Zugriffs).
-
-&nbsp;   Diese Daten sind technisch erforderlich, um die Website auszuliefern.
-
-&nbsp; </p>
-
-
-
-&nbsp; <p>
-
-&nbsp;   Wenn Sie mich per E-Mail oder Telefon kontaktieren, werden Ihre Angaben
-
-&nbsp;   ausschließlich zur Bearbeitung Ihrer Anfrage verwendet.
-
-&nbsp; </p>
-
+  <h2>Datenschutzerklärung</h2>
+  <p>Diese Website dient ausschließlich der Information über meine Dienstleistungen. Es werden keine Kontaktformulare, Cookies oder Analyse-Tools eingesetzt.</p>
+  <p>Beim Aufruf der Website werden durch den Hosting-Anbieter GitHub Pages technisch notwendige Zugriffsdaten verarbeitet.</p>
+  <p>Bei Kontaktaufnahme per E-Mail oder Telefon werden Ihre Angaben ausschließlich zur Bearbeitung Ihrer Anfrage verwendet.</p>
 </section>
 
-
-
 <footer>
-
-&nbsp; <p>\&copy; 2026 Gerhard Triebenbacher · <a href="#impressum">Impressum</a> · <a href="#datenschutz">Datenschutz</a></p>
-
+  <p>&copy; 2026 Gerhard Triebenbacher · <a href="#impressum">Impressum</a> · <a href="#datenschutz">Datenschutz</a></p>
 </footer>
 
-
-
 </body>
-
 </html>
-
-
-
